@@ -1,0 +1,5 @@
+- 👋 Hi, I’m Iwan
+- 👀 I’m interested in programming
+- 🌱 I’m currently learning a full-stack engineer cours
+- 😄 Pronouns: he/him
+- ⚡ Fun fact: Chicken is best
