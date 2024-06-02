@@ -4,41 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Antic+Slab&family=Merienda:wght@300..900&display=swap" rel="stylesheet">
     <title>Portfolio - Iwan El Khamlichi</title>
 </head>
 <body>
-    <header>
+    <header id="home">
         <div class="logo">
-            EL Khamlichi Iwan
-        </div>
-        <div class="open-menu">
-            <i class="fa-solid fa-bars"></i>
-        </div>
-        <div class="close-menu">
-            <i class="fa-solid fa-x"></i>
+          Iwan
         </div>
         <nav id="nav">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#contact">Skills</a></li>
+                <li><a href="#contact">Service</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><i id="moon" class="fa-solid fa-moon" style="color: #000000;"></i></li>
             </ul>
         </nav>
     </header>
-    <div class="title">
-        <p>Iwan El Khamlichi</p>
-        <h1>Front-end Developer</h1>
-        <button><i class="fa-solid fa-arrow-right"></i> See More</button>
-    </div>
     <main>
-        <!-- Your content goes here -->
+    <section class="main-info">
+        <aside class="main-icons">
+            <i class="fa-brands fa-github" style="color: #000000;"></i>
+            <i class="fa-brands fa-linkedin" style="color: #000000;"></i>
+            <i class="fa-brands fa-discord" style="color: #050505;"></i>
+        </aside>
+        <div class="main-content">
+            <h1>Hey, I'am Iwan</h1>
+            <h2>Learn Full-stack engineer</h2>
+            <p>Intermediate level of web design and<br> development knowledge</p>
+            <button><i class="fa-solid fa-arrow-right" style="color: #000000;"></i>Contact Me</button>
+        </div>
+        <div class="border-color"></div>
+    </section>
+    <section id="about">
+        <div class="scroll-mouse" id="about">
+           <img src="computer.png">
+           <p>Scroll down</p>
+           <i class="fa-solid fa-arrow-down" style="color: #000000;"></i>
+        </div>
+        <div class="about-content">
+         <div class="title">
+           <h3>About Me</h3>
+           <p>My introduction</p>
+        </div>
+    <div class="content-container">
+         <div class="content-img">
+            <img src="pfp.jpg">
+         </div>
+           <div class="content">
+             <p>I'm actually learning a Full-stack engineering cours
+                on codeacdemy For the moment i can only use html,css and
+                basics javascript,git and github.
+             </p>
+             <div class="experience">
+                <div class="experience-item">
+                    <p>0+</p>
+                    <h5>Years experiences</h5>
+                </div>
+                <div class="experience-item">
+                    <p>0+</p>
+                    <h5>Completed projects</h5>
+                </div>
+                <div class="experience-item">
+                    <p>0+</p>
+                    <h5>Companies worked</h5>
+                </div>
+             </div>
+             <button id="downloadCV">Download CV<i class="fa-solid fa-cloud-arrow-down" style="color: #000000;"></i></button>
+           </div>
+        </div>
+    </div>
+    </section>
     </main>
     <script src="portfolio.js"></script>
 </body>
 </html>
+
 

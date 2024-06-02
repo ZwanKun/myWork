@@ -1,5 +1,12 @@
-//burger-menu//
-document.querySelector('.burger-menu').addEventListener('click', function() {
-    document.getElementById('nav').classList.toggle('active');
-});
+document.querySelector('.scroll-mouse').addEventListener('click',function(){
+    document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });
+})
+
+
+
+
+
+
+
+
 
